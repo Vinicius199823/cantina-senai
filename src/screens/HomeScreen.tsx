@@ -1,7 +1,7 @@
 import React from "react";
 import { View, FlatList } from "react-native";
 import { PRODUCTS, Product } from "../data/products";
-import ProductCart from '../components/ProductCard'
+import ProductCard from '../components/ProductCard'
 
 export default function HomeScreen(){
     return (
