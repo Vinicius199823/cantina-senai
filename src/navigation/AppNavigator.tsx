@@ -6,7 +6,7 @@ import { AuthContext } from '../context/AuthContext';
 
 import LoginScreen from '../screens/LoginScreen';
 import HomeScreen from '../screens/HomeScreen';
-import DetailScreen from '../screens/DetailScreen';
+/* import DetailScreen from '../screens/DetailScreen'; */
 import CartScreen from '../screens/CartScreen';
 import CheckoutScreen from '../screens/Checkout';
 
@@ -35,7 +35,7 @@ export default function AppNavigator() {
                     (
                         <>
                             <Stack.Screen name="Home" component={HomeScreen}></Stack.Screen>
-                            <Stack.Screen name="Detail" component={DetailScreen}></Stack.Screen>
+                            {/* <Stack.Screen name="Detail" component={DetailScreen}></Stack.Screen> */}
                             <Stack.Screen name="Cart" component={CartScreen}></Stack.Screen>
                             <Stack.Screen name="Checkout" component={CheckoutScreen}></Stack.Screen>
                         </>
